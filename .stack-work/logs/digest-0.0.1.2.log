@@ -1,0 +1,7 @@
+Configuring digest-0.0.1.2...
+Preprocessing library for digest-0.0.1.2..
+Building library for digest-0.0.1.2..
+[1 of 2] Compiling Data.Digest.Adler32 ( .stack-work\dist\5c8418a7\build\Data\Digest\Adler32.hs, .stack-work\dist\5c8418a7\build\Data\Digest\Adler32.o )
+[2 of 2] Compiling Data.Digest.CRC32 ( .stack-work\dist\5c8418a7\build\Data\Digest\CRC32.hs, .stack-work\dist\5c8418a7\build\Data\Digest\CRC32.o )
+Installing library in C:\sr\snapshots\128c520b\lib\x86_64-windows-ghc-8.2.2\digest-0.0.1.2-JGLomU8mqHYEmvreeUuCf9
+Registering library for digest-0.0.1.2..

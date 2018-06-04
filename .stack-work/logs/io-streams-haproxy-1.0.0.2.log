@@ -1,0 +1,15 @@
+Configuring io-streams-haproxy-1.0.0.2...
+Preprocessing library for io-streams-haproxy-1.0.0.2..
+Building library for io-streams-haproxy-1.0.0.2..
+[1 of 2] Compiling System.IO.Streams.Network.Internal.Address ( src\System\IO\Streams\Network\Internal\Address.hs, .stack-work\dist\5c8418a7\build\System\IO\Streams\Network\Internal\Address.o )
+[2 of 2] Compiling System.IO.Streams.Network.HAProxy ( src\System\IO\Streams\Network\HAProxy.hs, .stack-work\dist\5c8418a7\build\System\IO\Streams\Network\HAProxy.o )
+
+[;1msrc\System\IO\Streams\Network\HAProxy.hs:47:1: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wunused-imports[0m[0m[;1m][0m[0m[;1m
+    The qualified import of `Data.ByteString.Char8' is redundant
+      except perhaps to import instances from `Data.ByteString.Char8'
+    To import instances alone, use: import Data.ByteString.Char8()[0m[0m
+[;1m[34m   |[0m[0m
+[;1m[34m47 |[0m[0m [;1m[35mimport qualified Data.ByteString.Char8                      as S[0m[0m
+[;1m[34m   |[0m[0m[;1m[35m ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[0m[0mInstalling library in C:\sr\snapshots\128c520b\lib\x86_64-windows-ghc-8.2.2\io-streams-haproxy-1.0.0.2-FtlHxAfjYWH92tuzJdXFwl
+Registering library for io-streams-haproxy-1.0.0.2..

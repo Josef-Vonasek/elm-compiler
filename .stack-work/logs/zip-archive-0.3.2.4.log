@@ -1,0 +1,49 @@
+[1 of 2] Compiling Main             ( C:\Users\BlaineMono\AppData\Local\Temp\stack7952\zip-archive-0.3.2.4\Setup.hs, C:\Users\BlaineMono\AppData\Local\Temp\stack7952\zip-archive-0.3.2.4\.stack-work\dist\5c8418a7\setup\Main.o )
+[2 of 2] Compiling StackSetupShim   ( C:\sr\setup-exe-src\setup-shim-Z6RU0evB.hs, C:\Users\BlaineMono\AppData\Local\Temp\stack7952\zip-archive-0.3.2.4\.stack-work\dist\5c8418a7\setup\StackSetupShim.o )
+Linking C:\Users\BlaineMono\AppData\Local\Temp\stack7952\zip-archive-0.3.2.4\.stack-work\dist\5c8418a7\setup\setup.exe ...
+Configuring zip-archive-0.3.2.4...
+Preprocessing library for zip-archive-0.3.2.4..
+Building library for zip-archive-0.3.2.4..
+[1 of 1] Compiling Codec.Archive.Zip ( src\Codec\Archive\Zip.hs, .stack-work\dist\5c8418a7\build\Codec\Archive\Zip.o )
+
+[;1msrc\Codec\Archive\Zip.hs:76:1: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wunused-imports[0m[0m[;1m][0m[0m[;1m
+    The import of `partition' from module `Data.List' is redundant[0m[0m
+[;1m[34m   |[0m[0m
+[;1m[34m76 |[0m[0m [;1m[35mimport Data.List ( nub, find, intercalate, partition)[0m[0m
+[;1m[34m   |[0m[0m[;1m[35m ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[0m[0m
+[;1msrc\Codec\Archive\Zip.hs:78:1: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wunused-imports[0m[0m[;1m][0m[0m[;1m
+    The import of `Data.Maybe' is redundant
+      except perhaps to import instances from `Data.Maybe'
+    To import instances alone, use: import Data.Maybe()[0m[0m
+[;1m[34m   |[0m[0m
+[;1m[34m78 |[0m[0m [;1m[35mimport Data.Maybe (fromJust)[0m[0m
+[;1m[34m   |[0m[0m[;1m[35m ^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[0m[0m
+[;1msrc\Codec\Archive\Zip.hs:100:1: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wunused-imports[0m[0m[;1m][0m[0m[;1m
+    The qualified import of `Data.ByteString.Lazy.Char8' is redundant
+      except perhaps to import instances from `Data.ByteString.Lazy.Char8'
+    To import instances alone, use: import Data.ByteString.Lazy.Char8()[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m100 |[0m[0m [;1m[35mimport qualified Data.ByteString.Lazy.Char8 as C (pack, unpack)[0m[0m
+[;1m[34m    |[0m[0m[;1m[35m ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[0m[0m
+[;1msrc\Codec\Archive\Zip.hs:111:1: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wunused-top-binds[0m[0m[;1m][0m[0m[;1m
+    Defined but not used: `versionMadeBy'[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m111 |[0m[0m [;1m[35mversionMadeBy[0m[0m = 0x0000 -- FAT/VFAT/VFAT32 file attributes
+[;1m[34m    |[0m[0m[;1m[35m ^^^^^^^^^^^^^[0m[0m
+[0m[0m[0m
+[;1msrc\Codec\Archive\Zip.hs:547:18: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wunused-matches[0m[0m[;1m][0m[0m[;1m
+    Defined but not used: `file'[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m547 |[0m[0m setFileTimeStamp [;1m[35mfile[0m[0m epochtime = do
+[;1m[34m    |[0m[0m[;1m[35m                  ^^^^[0m[0m
+[0m[0m[0m
+[;1msrc\Codec\Archive\Zip.hs:547:23: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wunused-matches[0m[0m[;1m][0m[0m[;1m
+    Defined but not used: `epochtime'[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m547 |[0m[0m setFileTimeStamp file [;1m[35mepochtime[0m[0m = do
+[;1m[34m    |[0m[0m[;1m[35m                       ^^^^^^^^^[0m[0m
+[0m[0m[0mInstalling library in C:\sr\snapshots\128c520b\lib\x86_64-windows-ghc-8.2.2\zip-archive-0.3.2.4-3gW2Q5hOEZm3byiAKm9oJI
+Registering library for zip-archive-0.3.2.4..

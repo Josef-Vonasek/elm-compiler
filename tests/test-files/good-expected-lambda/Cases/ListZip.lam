@@ -1,0 +1,15 @@
+@Nil #nil #cons 
+    nil
+@Cons #a #List<a> #nil #cons 
+    /cons a List<a>
+
+@zip /Y #R #list1 #list2
+    ///tuple2 list1 list2
+        #a #b 
+            //a
+                //b
+                    Nil
+                    #_ #_ Nil
+                #x #xs //b
+                    Nil
+                    #y #ys //Cons //tuple2 x y //R xs ys

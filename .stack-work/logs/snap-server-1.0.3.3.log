@@ -1,0 +1,52 @@
+Configuring snap-server-1.0.3.3...
+Preprocessing library for snap-server-1.0.3.3..
+Building library for snap-server-1.0.3.3..
+[ 1 of 18] Compiling Control.Concurrent.Extended ( src\Control\Concurrent\Extended.hs, .stack-work\dist\5c8418a7\build\Control\Concurrent\Extended.o )
+[ 2 of 18] Compiling Paths_snap_server ( .stack-work\dist\5c8418a7\build\autogen\Paths_snap_server.hs, .stack-work\dist\5c8418a7\build\Paths_snap_server.o )
+[ 3 of 18] Compiling Snap.Internal.Http.Server.Address ( src\Snap\Internal\Http\Server\Address.hs, .stack-work\dist\5c8418a7\build\Snap\Internal\Http\Server\Address.o )
+[ 4 of 18] Compiling Snap.Internal.Http.Server.Clock ( src\Snap\Internal\Http\Server\Clock.hs, .stack-work\dist\5c8418a7\build\Snap\Internal\Http\Server\Clock.o )
+[ 5 of 18] Compiling Snap.Internal.Http.Server.Common ( src\Snap\Internal\Http\Server\Common.hs, .stack-work\dist\5c8418a7\build\Snap\Internal\Http\Server\Common.o )
+[ 6 of 18] Compiling Snap.Internal.Http.Server.Config ( src\Snap\Internal\Http\Server\Config.hs, .stack-work\dist\5c8418a7\build\Snap\Internal\Http\Server\Config.o )
+[ 7 of 18] Compiling Snap.Http.Server.Config ( src\Snap\Http\Server\Config.hs, .stack-work\dist\5c8418a7\build\Snap\Http\Server\Config.o )
+[ 8 of 18] Compiling Snap.Internal.Http.Server.Date ( src\Snap\Internal\Http\Server\Date.hs, .stack-work\dist\5c8418a7\build\Snap\Internal\Http\Server\Date.o )
+[ 9 of 18] Compiling Snap.Internal.Http.Server.Parser ( src\Snap\Internal\Http\Server\Parser.hs, .stack-work\dist\5c8418a7\build\Snap\Internal\Http\Server\Parser.o )
+[10 of 18] Compiling Snap.Internal.Http.Server.Thread ( src\Snap\Internal\Http\Server\Thread.hs, .stack-work\dist\5c8418a7\build\Snap\Internal\Http\Server\Thread.o )
+[11 of 18] Compiling Snap.Internal.Http.Server.TimeoutManager ( src\Snap\Internal\Http\Server\TimeoutManager.hs, .stack-work\dist\5c8418a7\build\Snap\Internal\Http\Server\TimeoutManager.o )
+[12 of 18] Compiling Snap.Internal.Http.Server.Types ( src\Snap\Internal\Http\Server\Types.hs, .stack-work\dist\5c8418a7\build\Snap\Internal\Http\Server\Types.o )
+[13 of 18] Compiling Snap.Internal.Http.Server.TLS ( src\Snap\Internal\Http\Server\TLS.hs, .stack-work\dist\5c8418a7\build\Snap\Internal\Http\Server\TLS.o )
+[14 of 18] Compiling Snap.Internal.Http.Server.Socket ( src\Snap\Internal\Http\Server\Socket.hs, .stack-work\dist\5c8418a7\build\Snap\Internal\Http\Server\Socket.o )
+
+src\Snap\Internal\Http\Server\Socket.hs:18:1: warning: [-Wunused-imports]
+    The import of `Control.Monad' is redundant
+      except perhaps to import instances from `Control.Monad'
+    To import instances alone, use: import Control.Monad()
+   |
+18 | import           Control.Monad                     (when)
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+src\Snap\Internal\Http\Server\Socket.hs:19:1: warning: [-Wunused-imports]
+    The import of `Data.Bits' is redundant
+      except perhaps to import instances from `Data.Bits'
+    To import instances alone, use: import Data.Bits()
+   |
+19 | import           Data.Bits                         (complement, (.&.))
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+src\Snap\Internal\Http\Server\Socket.hs:51:45: warning: [-Wdeprecations]
+    In the use of `bindSocket' (imported from Network.Socket):
+    Deprecated: "use 'bind'"
+   |
+51 | bindSocket = bindSocketImpl setSocketOption N.bindSocket listen
+   |                                             ^^^^^^^^^^^^
+[15 of 18] Compiling Snap.Internal.Http.Server.Session ( src\Snap\Internal\Http\Server\Session.hs, .stack-work\dist\5c8418a7\build\Snap\Internal\Http\Server\Session.o )
+[16 of 18] Compiling Snap.Http.Server.Types ( src\Snap\Http\Server\Types.hs, .stack-work\dist\5c8418a7\build\Snap\Http\Server\Types.o )
+[17 of 18] Compiling System.FastLogger ( src\System\FastLogger.hs, .stack-work\dist\5c8418a7\build\System\FastLogger.o )
+[18 of 18] Compiling Snap.Http.Server ( src\Snap\Http\Server.hs, .stack-work\dist\5c8418a7\build\Snap\Http\Server.o )
+
+src\Snap\Http\Server.hs:39:1: warning: [-Wunused-imports]
+    The import of `Bool' from module `Prelude' is redundant
+   |
+39 | import           Prelude                           (Bool (..), Eq (..), IO, Maybe (..), Monad (..), Show (..), String, const, flip, fst, id, mapM, mapM_, maybe, snd, unzip3, zip, ($), ($!), (++), (.))
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Installing library in C:\sr\snapshots\128c520b\lib\x86_64-windows-ghc-8.2.2\snap-server-1.0.3.3-39mzJfedg1MAjr2RD5bWEm
+Registering library for snap-server-1.0.3.3..

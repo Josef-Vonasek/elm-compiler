@@ -1,0 +1,6 @@
+Configuring file-embed-0.0.10.1...
+Preprocessing library for file-embed-0.0.10.1..
+Building library for file-embed-0.0.10.1..
+[1 of 1] Compiling Data.FileEmbed   ( Data\FileEmbed.hs, .stack-work\dist\5c8418a7\build\Data\FileEmbed.o )
+Installing library in C:\sr\snapshots\128c520b\lib\x86_64-windows-ghc-8.2.2\file-embed-0.0.10.1-dHJWrXRvu59h2yyMVhlwG
+Registering library for file-embed-0.0.10.1..

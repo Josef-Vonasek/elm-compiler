@@ -1,0 +1,4 @@
+@foo #x
+    /if /equal x 'A'        
+        "hello"
+        "letter A was not seen"

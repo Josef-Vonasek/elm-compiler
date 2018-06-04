@@ -1,0 +1,43 @@
+Configuring snap-core-1.0.3.2...
+Preprocessing library for snap-core-1.0.3.2..
+Building library for snap-core-1.0.3.2..
+[ 1 of 18] Compiling Snap.Internal.Debug ( src\Snap\Internal\Debug.hs, .stack-work\dist\5c8418a7\build\Snap\Internal\Debug.o )
+[ 2 of 18] Compiling Snap.Types.Headers ( src\Snap\Types\Headers.hs, .stack-work\dist\5c8418a7\build\Snap\Types\Headers.o )
+[ 3 of 18] Compiling Snap.Internal.Http.Types ( src\Snap\Internal\Http\Types.hs, .stack-work\dist\5c8418a7\build\Snap\Internal\Http\Types.o )
+
+src\Snap\Internal\Http\Types.hs:50:1: warning: [-Wunused-imports]
+    The import of `Data.Time.Clock.POSIX' is redundant
+      except perhaps to import instances from `Data.Time.Clock.POSIX'
+    To import instances alone, use: import Data.Time.Clock.POSIX()
+   |
+50 | import           Data.Time.Clock.POSIX
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+src\Snap\Internal\Http\Types.hs:1283:11: warning: [-Wdeprecations]
+    In the use of `parseTime'
+    (imported from Data.Time.Format, but defined in time-1.8.0.2:Data.Time.Format.Parse):
+    Deprecated: "use "parseTimeM True" instead"
+     |
+1283 |     prs = parseTime defaultTimeLocale "%a, %d %b %Y %H:%M:%S GMT"
+     |           ^^^^^^^^^
+[ 4 of 18] Compiling Snap.Internal.Test.Assertions ( src\Snap\Internal\Test\Assertions.hs, .stack-work\dist\5c8418a7\build\Snap\Internal\Test\Assertions.o )
+[ 5 of 18] Compiling Snap.Internal.Parsing ( src\Snap\Internal\Parsing.hs, .stack-work\dist\5c8418a7\build\Snap\Internal\Parsing.o )
+[ 6 of 18] Compiling Snap.Internal.Core ( src\Snap\Internal\Core.hs, .stack-work\dist\5c8418a7\build\Snap\Internal\Core.o )
+[ 7 of 18] Compiling Snap.Internal.Routing ( src\Snap\Internal\Routing.hs, .stack-work\dist\5c8418a7\build\Snap\Internal\Routing.o )
+[ 8 of 18] Compiling Snap.Internal.Instances ( src\Snap\Internal\Instances.hs, .stack-work\dist\5c8418a7\build\Snap\Internal\Instances.o )
+[ 9 of 18] Compiling Snap.Core        ( src\Snap\Core.hs, .stack-work\dist\5c8418a7\build\Snap\Core.o )
+[10 of 18] Compiling Snap.Internal.Util.FileUploads ( src\Snap\Internal\Util\FileUploads.hs, .stack-work\dist\5c8418a7\build\Snap\Internal\Util\FileUploads.o )
+[11 of 18] Compiling Snap.Internal.Util.FileServe ( src\Snap\Internal\Util\FileServe.hs, .stack-work\dist\5c8418a7\build\Snap\Internal\Util\FileServe.o )
+[12 of 18] Compiling Snap.Internal.Test.RequestBuilder ( src\Snap\Internal\Test\RequestBuilder.hs, .stack-work\dist\5c8418a7\build\Snap\Internal\Test\RequestBuilder.o )
+[13 of 18] Compiling Snap.Test        ( src\Snap\Test.hs, .stack-work\dist\5c8418a7\build\Snap\Test.o )
+[14 of 18] Compiling Snap.Util.CORS   ( src\Snap\Util\CORS.hs, .stack-work\dist\5c8418a7\build\Snap\Util\CORS.o )
+[15 of 18] Compiling Snap.Util.FileServe ( src\Snap\Util\FileServe.hs, .stack-work\dist\5c8418a7\build\Snap\Util\FileServe.o )
+[16 of 18] Compiling Snap.Util.FileUploads ( src\Snap\Util\FileUploads.hs, .stack-work\dist\5c8418a7\build\Snap\Util\FileUploads.o )
+[17 of 18] Compiling Snap.Util.GZip   ( src\Snap\Util\GZip.hs, .stack-work\dist\5c8418a7\build\Snap\Util\GZip.o )
+[18 of 18] Compiling Snap.Util.Proxy  ( src\Snap\Util\Proxy.hs, .stack-work\dist\5c8418a7\build\Snap\Util\Proxy.o )
+Installing library in C:\sr\snapshots\128c520b\lib\x86_64-windows-ghc-8.2.2\snap-core-1.0.3.2-6LemVTlfj0d44Bvo69Djfs
+Registering library for snap-core-1.0.3.2..
+p\Util\GZip.hs, .stack-work\dist\5c8418a7\build\Snap\Util\GZip.o )
+[18 of 18] Compiling Snap.Util.Proxy  ( src\Snap\Util\Proxy.hs, .stack-work\dist\5c8418a7\build\Snap\Util\Proxy.o )
+Installing library in C:\sr\snapshots\128c520b\lib\x86_64-windows-ghc-8.2.2\snap-core-1.0.3.2-6LemVTlfj0d44Bvo69Djfs
+Registering library for snap-core-1.0.3.2..

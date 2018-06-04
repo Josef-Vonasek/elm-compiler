@@ -1,0 +1,28 @@
+Configuring io-streams-1.5.0.1...
+Preprocessing library for io-streams-1.5.0.1..
+Building library for io-streams-1.5.0.1..
+[ 1 of 23] Compiling System.IO.Streams.Internal ( src\System\IO\Streams\Internal.hs, .stack-work\dist\5c8418a7\build\System\IO\Streams\Internal.o )
+[ 2 of 23] Compiling System.IO.Streams.Handle ( src\System\IO\Streams\Handle.hs, .stack-work\dist\5c8418a7\build\System\IO\Streams\Handle.o )
+[ 3 of 23] Compiling System.IO.Streams.File ( src\System\IO\Streams\File.hs, .stack-work\dist\5c8418a7\build\System\IO\Streams\File.o )
+[ 4 of 23] Compiling System.IO.Streams.Debug ( src\System\IO\Streams\Debug.hs, .stack-work\dist\5c8418a7\build\System\IO\Streams\Debug.o )
+[ 5 of 23] Compiling System.IO.Streams.Core ( src\System\IO\Streams\Core.hs, .stack-work\dist\5c8418a7\build\System\IO\Streams\Core.o )
+[ 6 of 23] Compiling System.IO.Streams.Concurrent ( src\System\IO\Streams\Concurrent.hs, .stack-work\dist\5c8418a7\build\System\IO\Streams\Concurrent.o )
+[ 7 of 23] Compiling System.IO.Streams.Combinators ( src\System\IO\Streams\Combinators.hs, .stack-work\dist\5c8418a7\build\System\IO\Streams\Combinators.o )
+[ 8 of 23] Compiling System.IO.Streams.Builder ( src\System\IO\Streams\Builder.hs, .stack-work\dist\5c8418a7\build\System\IO\Streams\Builder.o )
+[ 9 of 23] Compiling System.IO.Streams.Internal.Attoparsec ( src\System\IO\Streams\Internal\Attoparsec.hs, .stack-work\dist\5c8418a7\build\System\IO\Streams\Internal\Attoparsec.o )
+[10 of 23] Compiling System.IO.Streams.Attoparsec.Text ( src\System\IO\Streams\Attoparsec\Text.hs, .stack-work\dist\5c8418a7\build\System\IO\Streams\Attoparsec\Text.o )
+[11 of 23] Compiling System.IO.Streams.Attoparsec.ByteString ( src\System\IO\Streams\Attoparsec\ByteString.hs, .stack-work\dist\5c8418a7\build\System\IO\Streams\Attoparsec\ByteString.o )
+[12 of 23] Compiling System.IO.Streams.Attoparsec ( src\System\IO\Streams\Attoparsec.hs, .stack-work\dist\5c8418a7\build\System\IO\Streams\Attoparsec.o )
+[13 of 23] Compiling System.IO.Streams.Internal.Network ( src\System\IO\Streams\Internal\Network.hs, .stack-work\dist\5c8418a7\build\System\IO\Streams\Internal\Network.o )
+[14 of 23] Compiling System.IO.Streams.Internal.Search ( src\System\IO\Streams\Internal\Search.hs, .stack-work\dist\5c8418a7\build\System\IO\Streams\Internal\Search.o )
+[15 of 23] Compiling System.IO.Streams.List ( src\System\IO\Streams\List.hs, .stack-work\dist\5c8418a7\build\System\IO\Streams\List.o )
+[16 of 23] Compiling System.IO.Streams.ByteString ( src\System\IO\Streams\ByteString.hs, .stack-work\dist\5c8418a7\build\System\IO\Streams\ByteString.o )
+[17 of 23] Compiling System.IO.Streams.Network ( src\System\IO\Streams\Network.hs, .stack-work\dist\5c8418a7\build\System\IO\Streams\Network.o )
+[18 of 23] Compiling System.IO.Streams.Process ( src\System\IO\Streams\Process.hs, .stack-work\dist\5c8418a7\build\System\IO\Streams\Process.o )
+[19 of 23] Compiling System.IO.Streams.Text ( src\System\IO\Streams\Text.hs, .stack-work\dist\5c8418a7\build\System\IO\Streams\Text.o )
+[20 of 23] Compiling System.IO.Streams.Tutorial ( src\System\IO\Streams\Tutorial.hs, .stack-work\dist\5c8418a7\build\System\IO\Streams\Tutorial.o )
+[21 of 23] Compiling System.IO.Streams.Vector ( src\System\IO\Streams\Vector.hs, .stack-work\dist\5c8418a7\build\System\IO\Streams\Vector.o )
+[22 of 23] Compiling System.IO.Streams.Zlib ( src\System\IO\Streams\Zlib.hs, .stack-work\dist\5c8418a7\build\System\IO\Streams\Zlib.o )
+[23 of 23] Compiling System.IO.Streams ( src\System\IO\Streams.hs, .stack-work\dist\5c8418a7\build\System\IO\Streams.o )
+Installing library in C:\sr\snapshots\128c520b\lib\x86_64-windows-ghc-8.2.2\io-streams-1.5.0.1-6Rltc7JRjH6AL1mYSFzzER
+Registering library for io-streams-1.5.0.1..
